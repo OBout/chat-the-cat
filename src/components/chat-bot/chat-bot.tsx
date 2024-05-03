@@ -120,8 +120,6 @@ export class ChatBot {
                 <p class={msg.from}>{msg.text}</p>
               ))}
             </div>
-            {/* <input type="text" value={this.userInput} onInput={this.handleInput} /> */}
-            <button onClick={this.sendMessage}>Send</button>
           </div>
         </hr>
       </div>
@@ -129,19 +127,3 @@ export class ChatBot {
     );
   }
 }
-/*
-
-        <button onClick={this.toggleChat}>Toggle Chat</button>
-        {this.isVisible && (
-          <div class="chat-interface">
-            <div>
-              {this.messages.map(msg => (
-                <p class={msg.from}>{msg.text}</p>
-              ))}
-            </div>
-            <input type="text" value={this.userInput} onInput={this.handleInput} />
-            <button onClick={this.sendMessage}>Send</button>
-          </div>
-        )}
-
-*/
